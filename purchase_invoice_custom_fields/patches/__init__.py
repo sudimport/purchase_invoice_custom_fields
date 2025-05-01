@@ -1,1 +1,1 @@
-from .create_custom_field import create_custom_field
+from .create_custom_field import create_supplier_part_field

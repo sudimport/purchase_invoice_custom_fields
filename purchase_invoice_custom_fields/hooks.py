@@ -5,15 +5,4 @@ app_description = "Aggiunge il campo 'Codice fornitore' alla tabella delle fattu
 app_email = "thomas@example.com"
 app_license = "MIT"
 
-fixtures = [
-    {
-        "doctype": "Custom Field",
-        "filters": [
-            ["dt", "=", "Purchase Invoice Item"],
-            ["fieldname", "=", "custom_supplier_part_number"]
-        ]
-    }
-]
-
-# -- Aggiungi questa riga:
-after_migrate = ["purchase_invoice_custom_fields.patches.create_custom_field"]
+after_migrate = ["purchase_invoice_custom_fields.patches.create_supplier_part_field"]
