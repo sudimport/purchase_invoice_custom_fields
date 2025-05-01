@@ -14,3 +14,6 @@ fixtures = [
         ]
     }
 ]
+
+# -- Aggiungi questa riga:
+after_migrate = ["purchase_invoice_custom_fields.patches.create_custom_field"]
