@@ -2,8 +2,11 @@
   "doctype": "Custom Field",
   "dt": "Purchase Invoice Item",
   "fieldname": "custom_supplier_part_number",
-  "label": "Codice fornitore",
+  "label": "Supplier Part Number",
   "fieldtype": "Data",
   "insert_after": "item_code",
-  "reqd": 0
+  "owner": "Administrator",
+  "create_date": "2024-05-01",
+  "modified_by": "Administrator",
+  "is_custom_field": 1
 }
