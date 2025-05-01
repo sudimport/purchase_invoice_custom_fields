@@ -1,0 +1,9 @@
+{
+  "doctype": "Custom Field",
+  "dt": "Purchase Invoice Item",
+  "fieldname": "custom_supplier_part_number",
+  "label": "Codice fornitore",
+  "fieldtype": "Data",
+  "insert_after": "item_code",
+  "reqd": 0
+}
