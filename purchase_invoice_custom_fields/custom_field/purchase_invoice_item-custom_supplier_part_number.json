@@ -1,12 +1,9 @@
 {
-  "doctype": "Custom Field",
-  "dt": "Purchase Invoice Item",
-  "fieldname": "custom_supplier_part_number",
-  "label": "Supplier Part Number",
-  "fieldtype": "Data",
-  "insert_after": "item_code",
-  "owner": "Administrator",
-  "create_date": "2024-05-01",
-  "modified_by": "Administrator",
-  "is_custom_field": 1
+ "doctype": "Custom Field",
+ "dt": "Purchase Invoice Item",
+ "fieldname": "custom_supplier_part_number",
+ "label": "Supplier Part Number",
+ "fieldtype": "Data",
+ "insert_after": "item_code",
+ "in_list_view": 1
 }
